@@ -1,4 +1,5 @@
-import java.awt.datatransfer.StringSelection;
+package functions;
+
 import java.util.Scanner;
 
 public class GradeCalculator {
