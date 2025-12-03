@@ -4,7 +4,7 @@ public class RunningSumof1dArray1480 {
     public static void main(String[] args) {
 
     }
-    class Solution {
+    class SolutionBest {
         public int[] runningSum(int[] nums) {
             int n = nums.length;
             for(int i = 1; i < n; i++){
