@@ -17,7 +17,6 @@ public class LinearSearchAlgorithms {
         if(array.length==0){
             return -1;
         }
-        // run a loop
         for(int i = 0; i < array.length; i++){
             if(target==array[i]){
                 return i;
