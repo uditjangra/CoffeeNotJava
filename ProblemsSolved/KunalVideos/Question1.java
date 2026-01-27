@@ -6,6 +6,9 @@ public class Question1 {
         char target = 'i';
     }
     static boolean search(String a, char target){
-        return !a.isEmpty();
+        if(a.isEmpty()){
+            return false;
+        }
+        return true;
     }
 }
